@@ -2,6 +2,7 @@
 .env
 
 # Virtual Environment
+playerapi-v2/
 playerapi/
 venv/
 env/

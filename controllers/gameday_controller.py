@@ -8,3 +8,4 @@ mlb_service = MLBService()
 def get_gameday(game_id):
     data = mlb_service.get_gameday_data(game_id)
     return jsonify(data)
+

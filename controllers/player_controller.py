@@ -40,7 +40,7 @@ def get_player():
 
     return jsonify(player_data)
 
-@app.route('/player_stats', methods=['POST'])
+@player_bp.route('/player_stats', methods=['POST'])
 def get_player_stats():
     data = request.json
     player_name = data.get('name')
